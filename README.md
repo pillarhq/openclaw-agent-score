@@ -28,8 +28,16 @@ The output is a structured JSON report with:
 
 ## Install
 
+Into your workspace (highest precedence):
+
 ```bash
-openclaw skill install pillarhq/openclaw-agent-score
+clawhub install agent-score
+```
+
+Into the managed/global location:
+
+```bash
+git clone https://github.com/pillarhq/openclaw-agent-score.git ~/.openclaw/skills/agent-score
 ```
 
 ## Usage
